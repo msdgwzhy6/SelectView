@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.selectview.MainActivity">
+
+    <com.selectview.SelectView
+        android:id="@+id/selectView1"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        app:hollownum="6"
+        app:solidnum="1" />
+
+    <com.selectview.SelectView
+        android:id="@+id/selectView2"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        app:hollownum="6"
+        app:solidnum="1" />
+
+    <com.selectview.SelectView
+        android:id="@+id/selectView3"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        app:hollownum="3"
+        app:solidnum="1" />
+
+
+</LinearLayout>

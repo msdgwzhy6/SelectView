@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--//select-->
+    <declare-styleable name="SelectView">
+        <attr name="solidnum" format="integer"/>
+        <attr name="hollownum" format="integer"/>
+    </declare-styleable>
+</resources>
